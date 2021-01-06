@@ -41,7 +41,7 @@ textarea {
   resize: none; /* bloqueia o resize da textarea*/
   height: 18px;
   width: 140px;
-  overflow: hidden; /* pra não ficar com scroll */
+  overflow: hidden; /* para não ficar com scroll */
 }
 
 .container {
@@ -56,9 +56,9 @@ textarea {
 .chat-header {
     font-size: 7px;
     font-family: sans-serif;
-    border: 1px solid black;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border: 1px solid black; /*define as propriedades da borda do header do chat*/
+    border-top-left-radius: 15px; /*arredonda a bordinha da esquerda*/
+    border-top-right-radius: 15px; /*arredonda a bordinha da direita*/
     height: 60px;
     align-items: center;
     display: flex;
@@ -68,12 +68,12 @@ textarea {
   }
   
   .chat-body {
-      border: 1px solid black;
+      border: 1px solid black; /*define as propriedades da borda do corpo do chat*/
       
   }
 
   .chat-footer {
-    border: 1px solid black;
+    border: 1px solid black; /*define as propriedades da borda da textarea*/
     height: 20px;
     width: 142px;
   }
